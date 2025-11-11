@@ -42,5 +42,6 @@ public/             # Static assets (add branding assets here)
 2. Run `npm run start` or use the provided Docker image to serve the site.
 3. Deploy the resulting container image to any OCI-compatible runtime (AWS ECS/Fargate, Google Cloud Run, Azure Web Apps for Containers, etc.) or host the `.next/standalone` output on your own Node.js server.
 4. Ensure environment variables are supplied if you add integrations (none are required for the static build).
+=======
 
 The project currently uses static data sources so it can be deployed as-is without additional services.

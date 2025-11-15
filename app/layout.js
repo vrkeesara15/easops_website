@@ -12,11 +12,11 @@ const navigation = [
 
 export const metadata = {
   title: {
-    default: 'EasOps | DevOps & Cloud Consultancy',
+    default: 'EasOps | AI Solutions & Intelligent Automation',
     template: '%s | EasOps'
   },
   description:
-    'EasOps is a DevOps and cloud consultancy delivering resilient infrastructure, observability, and automation services for modern teams.'
+    'EasOps delivers AI solutions, automation workflows, and modern data platforms that transform marketing, analytics, and operations for ambitious teams.'
 };
 
 export default function RootLayout({ children }) {
@@ -39,8 +39,11 @@ export default function RootLayout({ children }) {
         </header>
         <main className="container">{children}</main>
         <footer className="footer">
-          <div className="container">
-            <p>© {new Date().getFullYear()} EasOps. DevOps excellence delivered.</p>
+          <div className="container footer-inner">
+            <p>© {new Date().getFullYear()} EasOps. AI solutions for smarter operations.</p>
+            <nav>
+              <Link href="/contact">Get in touch</Link>
+            </nav>
           </div>
         </footer>
       </body>

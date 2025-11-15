@@ -1,20 +1,25 @@
 export const contactReasons = [
-  'DevOps Strategy',
-  'Platform Engineering',
-  'Cloud Migration',
-  'Incident Response',
-  'Observability'
+  'AI & Machine Learning',
+  'Process Automation',
+  'Data Engineering',
+  'Cloud Infrastructure',
+  'Custom Development'
 ];
 
 export const officeLocations = [
   {
-    city: 'London',
-    address: '22 Bishopsgate, London EC2N 4AJ',
-    phone: '+44 20 7946 0998'
+    city: 'Nashville HQ',
+    address: '1201 Broadway, Suite 800, Nashville, TN 37203',
+    phone: '+1 (615) 555-0188'
   },
   {
-    city: 'Amsterdam',
-    address: 'Singel 542, 1017 AZ Amsterdam',
-    phone: '+31 20 894 6760'
+    city: 'Austin',
+    address: '600 Congress Ave, 14th Floor, Austin, TX 78701',
+    phone: '+1 (737) 555-0420'
+  },
+  {
+    city: 'London',
+    address: '91 Wimpole Street, London W1G 0EF',
+    phone: '+44 20 4526 3024'
   }
 ];

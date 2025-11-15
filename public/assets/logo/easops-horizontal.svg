@@ -1,0 +1,10 @@
+<svg width="360" height="120" viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#020617" stroke="#0B1120" />
+  <path d="M32 40h56l-12 16H44L32 40z" fill="#22C55E" opacity="0.85" />
+  <path d="M32 80h56l-12-16H44L32 80z" fill="#38BDF8" opacity="0.85" />
+  <path d="M36 60h48l-10 12H46L36 60z" fill="#A5F3FC" opacity="0.5" />
+  <path d="M60 28l24 36-24 36-24-36 24-36z" stroke="#22C55E" stroke-width="3" />
+  <text x="140" y="74" fill="#E5E7EB" font-size="48" font-family="'Space Grotesk', 'Inter', sans-serif" letter-spacing="0.4em">
+    EASOPS
+  </text>
+</svg>
